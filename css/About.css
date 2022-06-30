@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+#Aboutmain {
+  background-image: url(../assests/about-dektop.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px 0;
+}
+
+#Aboutmain .mainContentAbout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+#Aboutmain .mainContentAbout .titleimgAbout {
+  max-width: 100%;
+}
+
+#Aboutmain .mainContentAbout .textMainAbout {
+  max-width: 700px;
+  border: 2px solid rgb(189, 189, 189);
+  padding: 30px 50px;
+  background-color: white;
+}
+
+#creativeSection .creContent {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
+#creativeSection .creContent .titleAbout {
+  font-size: 40px;
+}
+
+#creativeSection .creContent .line {
+  height: 2px;
+  width: 100px;
+  border-radius: 8px;
+  margin: 25px auto;
+  background-color: #ec5242;
+}
+
+#creativeSection .creContent .imageAboutt {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 5px solid #fff;
+  margin-top: 20px;
+}
+
+#Past {
+  margin-top: 100px;
+}
+
+#Past .pastContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+#Past .pastContent .titles {
+  font-size: 40px;
+}
+
+#Past .pastContent .imagesPast {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#Past .pastContent .imagesPast img {
+  max-width: 400px;
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  #creativeSection .creContent .titleAbout {
+    font-size: 30px;
+  }
+
+  #creativeSection .creContent .imageAboutt {
+    max-width: 300px;
+    margin: 0 auto;
+    border: 5px solid #fff;
+    margin-top: 20px;
+  }
+}
+
+#Footer {
+  background-color: #272a31;
+  margin-top: 60px;
+}
+
+#Footer span {
+  color: white;
+}

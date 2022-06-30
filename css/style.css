@@ -1,0 +1,422 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "lato", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1156px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+#topHeader {
+  background-color: #272a31;
+  padding: 12px 0;
+}
+
+#topHeader .content {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 20px;
+}
+
+#topHeader .content .top {
+  color: white;
+}
+
+#topHeader .content i {
+  color: white;
+}
+
+#Header {
+  box-shadow: rgba(0, 0, 0, 0.2) 0 5px 10px;
+  padding: 5px 0;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+#Header .ContentHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+#Header .ContentHeader .logo {
+  max-width: 120px;
+}
+
+#Header .ContentHeader #Nav {
+  display: flex;
+  align-items: center;
+  gap: 160px;
+}
+
+#Header .ContentHeader #Nav .navItems {
+  display: flex;
+  gap: 45px;
+}
+
+#Header .ContentHeader #Nav .navItems .navItem a {
+  color: #272a31;
+  font-size: 18px;
+}
+
+#Header .ContentHeader #Nav .btnHeader {
+  border: 7px solid #ec5242;
+  color: #ec5242;
+  font-weight: bold;
+  padding: 15px 25px;
+}
+
+#main {
+  background-image: url(../assests/bkgrnd.png);
+  padding: 100px 0;
+}
+
+#main .mainContent .titleimg {
+  max-width: 100%;
+}
+
+#main .mainContent .textMain {
+  max-width: 600px;
+  padding: 20px 10px;
+  border: 5px solid white;
+  margin-top: 30px;
+}
+
+#mainProgram {
+  background-color: #272a31;
+  background-image: url(../assests/pattern_bg.png);
+  padding: 90px 0;
+}
+
+#mainProgram .mainProgramContent .titleProgram {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+#mainProgram .mainProgramContent .line {
+  height: 2px;
+  width: 100px;
+  border-radius: 8px;
+  margin: 25px auto;
+  background-color: #ec5242;
+}
+
+#mainProgram .mainProgramContent .cards {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+#mainProgram .mainProgramContent .cards .card {
+  background-color: rgba(128, 127, 127, 0.1921568627);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  max-width: 300px;
+  height: 260px;
+}
+
+#mainProgram .mainProgramContent .cards .card .titleCard {
+  color: #ec5242;
+  margin: 15px 0;
+}
+
+#mainProgram .mainProgramContent .cards .card .textProgram {
+  color: rgb(236, 236, 236);
+  max-width: 210px;
+}
+
+#mainProgram .mainProgramContent .moreSpeaker-feild {
+  text-align: center;
+  margin-top: 90px;
+}
+
+#mainProgram .mainProgramContent .moreSpeaker-feild .moreSpeaker {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#mainProgram .mainProgramContent .moreSpeaker-feild hr {
+  max-width: 254px;
+  margin: 0 auto;
+  border: none;
+  height: 1px;
+  background-color: white;
+}
+
+#speakerSection {
+  margin-top: 60px;
+}
+
+#speakerSection .speakerContent .titleSpeaker {
+  font-size: 40px;
+  text-align: center;
+}
+
+#speakerSection .speakerContent .lineSpeaker {
+  height: 2px;
+  width: 100px;
+  border-radius: 8px;
+  margin: 25px auto;
+  background-color: #ec5242;
+}
+
+#speakerSection .speakerContent .speakerCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+  gap: 40px;
+}
+
+#speakerSection .speakerContent .speakerCards .speakerCard {
+  max-width: 550px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#speakerSection .speakerContent .speakerCards .speakerCard .speakerCardContent .speakerCardTitle {
+  color: #272a31;
+}
+
+#speakerSection .speakerContent .speakerCards .speakerCard .speakerCardContent .speakerCardTitre {
+  font-weight: 300;
+  color: #ec5242;
+}
+
+#speakerSection .speakerContent .speakerCards .speakerCard .speakerCardContent .speakerCardLine {
+  width: 60px;
+  height: 2px;
+  background-color: #f2f2f2;
+  margin: 10px 0;
+}
+
+#Partners {
+  background-color: #272a31;
+  padding: 50px 0;
+  margin-top: 100px;
+}
+
+#Partners .partnersContent {
+  text-align: center;
+}
+
+#Partners .partnersContent .titlePartner {
+  color: rgb(189, 189, 189);
+  font-size: 40px;
+}
+
+#Partners .partnersContent .numbersContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+#Partners .partnersContent .numbersContent .partner {
+  font-size: 35px;
+  font-weight: bold;
+  color: #747474;
+}
+
+#Footer {
+  padding: 40px 0;
+}
+
+#Footer .FooterContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+#Footer .FooterContent .footerLogo {
+  max-width: 200px;
+}
+
+@media (max-width: 800px) {
+  .container {
+    max-width: 90%;
+  }
+
+  #Header {
+    height: 30px;
+  }
+
+  #Header .ContentHeader .logo {
+    display: none;
+  }
+
+  #Header .ContentHeader .hamberger {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    text-align: start;
+    align-items: flex-start;
+    left: 10%;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  #Header .ContentHeader .hamberger .line:nth-child(1) {
+    background-color: #272a31;
+    width: 35px;
+    height: 2.1px;
+  }
+
+  #Header .ContentHeader .hamberger .line:nth-child(2) {
+    background-color: #272a31;
+    width: 35px;
+    height: 2.1px;
+  }
+
+  #Header .ContentHeader .hamberger .line:nth-child(3) {
+    background-color: #272a31;
+    width: 22px;
+    height: 2.1px;
+  }
+
+  #Header .ContentHeader .hamberger.open .line {
+    background-color: #fff;
+    transition: all 0.5s ease-in-out;
+  }
+
+  #Header .ContentHeader .hamberger.open .line:first-child {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  #Header .ContentHeader .hamberger.open .line:nth-child(2) {
+    transform: translateY(1px) rotate(-45deg);
+  }
+
+  #Header .ContentHeader .hamberger.open .line:nth-child(3) {
+    display: none;
+  }
+
+  #Header .ContentHeader #Nav .btnHeader {
+    display: none;
+  }
+
+  #Header .ContentHeader #Nav .navItems {
+    position: fixed;
+    background-color: #272a31;
+    width: 100%;
+    height: 100vh;
+    right: 0;
+    top: 0;
+    display: flex;
+    text-align: center;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    clip-path: circle(100px at 90% -20%);
+    -webkit-clip-path: circle(100px at 90% -20%);
+    transition: all 0.7s ease-out;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  #Header .ContentHeader #Nav .navItems .navItem {
+    list-style: none;
+  }
+
+  #Header .ContentHeader #Nav .navItems .navItem a {
+    color: #fff;
+    font-size: 22px;
+  }
+
+  #Header .ContentHeader #Nav .navItems .navItem.fade {
+    opacity: 1;
+  }
+
+  #Header .ContentHeader #Nav .navItems.open {
+    clip-path: circle(1200px at 90% -20%);
+    -webkit-clip-path: circle(1200px at 90% -20%);
+    pointer-events: all;
+  }
+
+  #mainProgram .mainProgramContent .titleProgram {
+    font-size: 28px;
+  }
+
+  #mainProgram .mainProgramContent #cards {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #mainProgram .mainProgramContent #cards .card {
+    max-width: 600px;
+    height: 120px;
+  }
+
+  #mainProgram .mainProgramContent #cards .card .cardContent {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: start;
+  }
+
+  #mainProgram .mainProgramContent #cards .card .cardContent .titleCard {
+    font-size: 16px;
+    max-width: 50px;
+    margin-right: 40px;
+  }
+
+  #mainProgram .mainProgramContent #cards .card .cardContent .textProgram {
+    font-size: 14px;
+    max-width: 250px;
+  }
+
+  #speakerSection .speakerContent .titleSpeaker {
+    font-size: 28px;
+  }
+
+  #speakerSection .speakerContent .speakerCards .speakerCard {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  #speakerSection .speakerContent .speakerCards .speakerCard .iconspeaker {
+    max-width: 100px;
+  }
+
+  #speakerSection .speakerContent .speakerCards .speakerCard .speakerCardContent .speakerCardTitle {
+    font-size: 15px;
+  }
+
+  #speakerSection .speakerContent .speakerCards .speakerCard .speakerCardContent .speakerCardTitre {
+    font-size: 11px;
+  }
+
+  #speakerSection .speakerContent .speakerCards .speakerCard .speakerCardContent .speakerCardDescription {
+    font-size: 11px;
+  }
+}
