@@ -8,8 +8,9 @@ This is my Capstone project that shows how much I learned trough the first Modul
 
 ## 🖥️ Live Demo
 
-[My Portfolio](https://elhamatokhi.github.io/Capstone-project/)
+[My capstone Project](https://elhamatokhi.github.io/Capstone-project/)
 
+This is the link
 ## Built With
 HTML
 CSS(scss)
@@ -50,7 +51,8 @@ npx stylelint "\*_/_.{css,scss}"
 ```bash
 npx eslint .
 ```
-
+##loom video
+https://www.loom.com/share/d6387219dc754101b98c68a5206367d8
 ## Authors
 👤 **Author1**
 
@@ -68,6 +70,7 @@ Give a ⭐️ if you like this project!
 
 - Thank You [Microverse](www.microverse.org) team that help me with the template of this project.
 - Thanks to everyone who will get time to check this code and suggest any [issue](https://github.com/elhamatokhi/portfolio-micro) to improve the page.
+- The credit of the design goes to [Cindy Shin](https://www.behance.net/adagio07)
 
 ## 📝 License
 
