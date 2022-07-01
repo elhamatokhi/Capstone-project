@@ -1,0 +1,131 @@
+$mainImage: url(../assests/about-dektop.png);
+$pattern: url(../assests/pattern_bg.png);
+$primary-color: #ec5242;
+$sec-color: #272a31;
+$back-color: #f2f2f2;
+$shadow: rgba(0, 0, 0, 0.2) 0 5px 10px;
+$primary-font: "lato", sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $back-color;
+}
+// About main section
+#Aboutmain {
+  background-image: $mainImage;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px 0;
+
+  .mainContentAbout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+    .titleimgAbout {
+      max-width: 100%;
+    }
+
+    .textMainAbout {
+      max-width: 700px;
+      border: 2px solid  rgb(189, 189, 189);
+      padding: 30px 50px;
+      background-color: #ffff;
+    }
+  }
+}
+// End of main About section
+
+// Creative section
+#creativeSection {
+  .creContent {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+
+    .titleAbout {
+      font-size: 40px;
+    }
+
+    .line {
+      height: 2px;
+      width: 100px;
+      border-radius: 8px;
+      margin: 25px auto;
+      background-color: $primary-color;
+    }
+
+    .imageAboutt {
+      max-width: 400px;
+      margin: 0 auto;
+      border: 5px solid #fff;
+      margin-top: 20px;
+    }
+  }
+}
+// End of Creative section
+
+//see the past section
+#Past {
+  margin-top: 100px;
+
+  .pastContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    .titles {
+      font-size: 40px;
+    }
+
+    .imagesPast {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      align-items: center;
+      flex-wrap: wrap;
+
+      img {
+        max-width: 400px;
+        width: 100%;
+      }
+    }
+  }
+}
+// End of see the past section
+
+@media (max-width: 800px) {
+  #creativeSection {
+    .creContent {
+      .titleAbout {
+        font-size: 30px;
+      }
+
+      .imageAboutt {
+        max-width: 300px;
+        margin: 0 auto;
+        border: 5px solid #fff;
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+// footer
+#Footer {
+  background-color: $sec-color;
+  margin-top: 60px;
+
+  span {
+    color: #ffff;
+  }
+}

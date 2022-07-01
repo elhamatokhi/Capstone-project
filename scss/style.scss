@@ -1,0 +1,486 @@
+$mainImage: url(../assests/bkgrnd.png);
+$mainImagemoblie: url(../assests/background.png);
+$pattern: url(../assests/pattern_bg.png);
+$primary-color: #ec5242;
+$sec-color: #272a31;
+$back-color: #f2f2f2;
+$shadow: rgba(0, 0, 0, 0.2) 0 5px 10px;
+$primary-font: "lato", sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $primary-font;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1156px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+//Header Section
+#topHeader {
+  // top header
+  background-color: $sec-color;
+  padding: 12px 0;
+
+  .content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 20px;
+
+    .top {
+      color: #ffff;
+    }
+
+    i {
+      color: #ffff;
+    }
+  }
+}
+
+// end of top header
+
+#Header {
+  box-shadow: $shadow;
+  padding: 5px 0;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+
+  .ContentHeader {
+    display: flex;
+    justify-content: space-between;
+
+    .logo {
+      max-width: 120px;
+    }
+
+    // nav
+    #Nav {
+      display: flex;
+      align-items: center;
+      gap: 160px;
+
+      .navItems {
+        display: flex;
+        gap: 45px;
+
+        .navItem {
+          a {
+            color: $sec-color;
+            font-size: 18px;
+          }
+        }
+      }
+
+      .btnHeader {
+        border: 7px solid $primary-color;
+        color: $primary-color;
+        font-weight: bold;
+        padding: 15px 25px;
+      }
+    }
+
+    // end of nav
+  }
+}
+
+//End of Header Section
+//main section
+#main {
+  background-image: $mainImage;
+  padding: 100px 0;
+
+  .mainContent {
+    .titleimg {
+      max-width: 100%;
+    }
+
+    .textMain {
+      max-width: 600px;
+      padding: 20px 10px;
+      border: 5px solid #ffff;
+      margin-top: 30px;
+    }
+  }
+}
+
+//End of main section
+// Main Program
+#mainProgram {
+  background-color: $sec-color;
+  background-image: $pattern;
+  padding: 90px 0;
+
+  .mainProgramContent {
+    .titleProgram {
+      text-align: center;
+      color: #ffff;
+      font-size: 40px;
+    }
+
+    .line {
+      height: 2px;
+      width: 100px;
+      border-radius: 8px;
+      margin: 25px auto;
+      background-color: $primary-color;
+    }
+
+    .cards {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: space-between;
+
+      .card {
+        background-color: #807f7f31;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        max-width: 300px;
+        height: 260px;
+
+        .titleCard {
+          color: $primary-color;
+          margin: 15px 0;
+        }
+
+        .textProgram {
+          color: rgb(236, 236, 236);
+          max-width: 210px;
+        }
+      }
+    }
+
+    .moreSpeaker-feild {
+      text-align: center;
+      margin-top: 90px;
+
+      .moreSpeaker {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      hr {
+        max-width: 254px;
+        margin: 0 auto;
+        border: none;
+        height: 1px;
+        background-color: #ffff;
+      }
+    }
+  }
+}
+
+// End of Main Program
+
+// speaker section
+#speakerSection {
+  margin-top: 60px;
+
+  .speakerContent {
+    .titleSpeaker {
+      font-size: 40px;
+      text-align: center;
+    }
+
+    .lineSpeaker {
+      height: 2px;
+      width: 100px;
+      border-radius: 8px;
+      margin: 25px auto;
+      background-color: $primary-color;
+    }
+
+    .speakerCards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 80px;
+      gap: 40px;
+
+      .speakerCard {
+        max-width: 550px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        .speakerCardContent {
+          .speakerCardTitle {
+            color: $sec-color;
+          }
+
+          .speakerCardTitre {
+            font-weight: 300;
+            color: $primary-color;
+          }
+
+          .speakerCardLine {
+            width: 60px;
+            height: 2px;
+            background-color: $back-color;
+            margin: 10px 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+// End of speaker section
+
+// partners section
+#Partners {
+  background-color: #272a31;
+  padding: 50px 0;
+  margin-top: 100px;
+
+  .partnersContent {
+    text-align: center;
+
+    .titlePartner {
+      color: rgb(189, 189, 189);
+      font-size: 40px;
+    }
+
+    .numbersContent {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      flex-wrap: wrap;
+      gap: 40px;
+      margin-top: 40px;
+
+      .partner {
+        font-size: 35px;
+        font-weight: bold;
+        color: #747474;
+      }
+    }
+  }
+}
+
+// End of partners section
+
+// footer section
+#Footer {
+  padding: 40px 0;
+
+  .FooterContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+
+    .footerLogo {
+      max-width: 200px;
+    }
+  }
+}
+
+// End of footer section
+
+// mobile version
+@media (max-width: 800px) {
+  .container {
+    max-width: 90%;
+  }
+
+  #Header {
+    height: 30px;
+
+    .ContentHeader {
+      .logo {
+        display: none;
+      }
+
+      .hamberger {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        text-align: start;
+        align-items: flex-start;
+        left: 10%;
+        z-index: 2;
+        cursor: pointer;
+
+        .line:nth-child(1) {
+          background-color: $sec-color;
+          width: 35px;
+          height: 2.1px;
+        }
+
+        .line:nth-child(2) {
+          background-color: $sec-color;
+          width: 35px;
+          height: 2.1px;
+        }
+
+        .line:nth-child(3) {
+          background-color: $sec-color;
+          width: 22px;
+          height: 2.1px;
+        }
+      }
+
+      .hamberger.open .line {
+        background-color: #fff;
+        transition: all 0.5s ease-in-out;
+
+        &:first-child {
+          transform: translateY(8px) rotate(45deg);
+        }
+
+        &:nth-child(2) {
+          transform: translateY(1px) rotate(-45deg);
+        }
+
+        &:nth-child(3) {
+          display: none;
+        }
+      }
+
+      #Nav {
+        .btnHeader {
+          display: none;
+        }
+
+        .navItems {
+          position: fixed;
+          background-color: $sec-color;
+          width: 100%;
+          height: 100vh;
+          right: 0;
+          top: 0;
+          display: flex;
+          text-align: center;
+          gap: 50px;
+          flex-direction: column;
+          align-items: center;
+          padding-top: 100px;
+          clip-path: circle(100px at 90% -20%);
+          -webkit-clip-path: circle(100px at 90% -20%);
+          transition: all 0.7s ease-out;
+          z-index: 1;
+          pointer-events: none;
+
+          .navItem {
+            list-style: none;
+
+            a {
+              color: #fff;
+              font-size: 22px;
+            }
+          }
+
+          .navItem.fade {
+            opacity: 1;
+          }
+
+          &.open {
+            clip-path: circle(1200px at 90% -20%);
+            -webkit-clip-path: circle(1200px at 90% -20%);
+            pointer-events: all;
+          }
+        }
+      }
+    }
+  }
+
+  // End of header
+  // main program start
+  #mainProgram {
+    .mainProgramContent {
+      .titleProgram {
+        font-size: 28px;
+      }
+
+      #cards {
+        flex-direction: column;
+        width: 100%;
+
+        .card {
+          max-width: 600px;
+          height: 120px;
+
+          .cardContent {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-align: start;
+
+            .titleCard {
+              font-size: 16px;
+              max-width: 50px;
+              margin-right: 40px;
+            }
+
+            .textProgram {
+              font-size: 14px;
+              max-width: 250px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // end of main program start
+  // start speaker section
+  #speakerSection {
+    .speakerContent {
+      .titleSpeaker {
+        font-size: 28px;
+      }
+
+      .speakerCards {
+        .speakerCard {
+          max-width: 400px;
+          margin: 0 auto;
+
+          .iconspeaker {
+            max-width: 100px;
+          }
+
+          .speakerCardContent {
+            .speakerCardTitle {
+              font-size: 15px;
+            }
+
+            .speakerCardTitre {
+              font-size: 11px;
+            }
+
+            .speakerCardDescription {
+              font-size: 11px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // End of speaker section
+}
