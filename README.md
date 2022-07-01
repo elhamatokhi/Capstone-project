@@ -9,8 +9,6 @@ This is my Capstone project that shows how much I learned trough the first Modul
 ## 🖥️ Live Demo
 
 [My capstone Project](https://elhamatokhi.github.io/Capstone-project/)
-
-This is the link
 ## Built With
 HTML
 CSS(scss)
